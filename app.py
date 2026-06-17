@@ -4,9 +4,13 @@ import plotly.express as px
 from io import BytesIO
 from datetime import datetime
 
+from PIL import Image
+
+logo = Image.open("LOGO STOCKAI.png")
+
 st.set_page_config(
     page_title="STOCKAI V9.1",
-    page_icon="📊",
+    page_icon=logo,
     layout="wide"
 )
 
