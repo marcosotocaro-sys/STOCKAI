@@ -4,7 +4,11 @@ import plotly.express as px
 from io import BytesIO
 from datetime import datetime
 
-st.set_page_config(page_title="STOCKAI V9.1", layout="wide")
+st.set_page_config(
+    page_title="STOCKAI V9.1",
+    page_icon="📊",
+    layout="wide"
+)
 
 MESES = ["ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO","JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"]
 
